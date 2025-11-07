@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05215858a3408f84bb321438e9ac1dc5, type: 3}
+  m_Name: Weapon Data Scriptable
+  m_EditorClassIdentifier: 
+  _weapons:
+  - WeaponType: 1
+    WeaponImage: {fileID: 21300000, guid: 053452691be40684992e80d075b061c5, type: 3}
+    WeaponPrefab: {fileID: 6760437150630048806, guid: f9f521a2a25881640b4bca945d1a6960, type: 3}
+    GlovePrefab: {fileID: 1566699385068342391, guid: 33903a291632ed544b09938894eaf86d, type: 3}
+    GloveLocation: {x: 0, y: 0.4, z: 0}
+    FireRate: 0.425
+  - WeaponType: 2
+    WeaponImage: {fileID: 21300000, guid: b9f913d2e7ac22945a6666275325920b, type: 3}
+    WeaponPrefab: {fileID: -1124424996138026935, guid: 66bf0e62e6fa1074e805d308a44ecbaa, type: 3}
+    GlovePrefab: {fileID: 1566699385068342391, guid: c27cbc9340c2d6d4a95fba6902983b99, type: 3}
+    GloveLocation: {x: 0, y: 0.4, z: 0}
+    FireRate: 0.425
+  - WeaponType: 3
+    WeaponImage: {fileID: 21300000, guid: 47abad564dac8db4486ded75b70f99e0, type: 3}
+    WeaponPrefab: {fileID: 6983067284333611841, guid: 63ba9c5fc17e7b643a15f7144fff7cce, type: 3}
+    GlovePrefab: {fileID: 7270922572416618293, guid: 30b9dc8380bc22742b412f7dde43a70e, type: 3}
+    GloveLocation: {x: 0, y: 0.28, z: 0}
+    FireRate: 0.25
+  - WeaponType: 4
+    WeaponImage: {fileID: 21300000, guid: 94587ee3e570ecc4fbca4918d4ac246d, type: 3}
+    WeaponPrefab: {fileID: 6401911595023792370, guid: 787b25f096e5a1141acf95f6ad9be77b, type: 3}
+    GlovePrefab: {fileID: 1566699385068342391, guid: 33903a291632ed544b09938894eaf86d, type: 3}
+    GloveLocation: {x: 0, y: 0.28, z: 0}
+    FireRate: 0.25
